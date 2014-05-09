@@ -1,0 +1,178 @@
+body {
+  	position:relative;
+	margin: 0;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 13px;
+	color:#404040;
+  	font-weight:100;
+  	background: #21ac12;
+  	background-size: cover;
+	line-height:25px;
+	overflow-x: hidden;
+
+}
+
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+  	font-weight:100;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	list-style: none;
+	vertical-align: baseline;
+	background: transparent;
+  	position:relative;
+}
+
+a {
+	color: #127bac;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #127bac;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+#greenwebMenu {
+	width: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	background: #eeeeee;
+	border-right: 1px solid #bcbcbc;
+	z-index: 100;
+	transition: 0.8s;
+	overflow: hidden;
+}
+
+	#greenwebMenu #logo {
+		display: block;
+		width: auto;
+		height: 60px;
+		border-bottom: 1px solid #bcbcbc; 
+		background: url('../img/logo.png');
+		background-position: -174px 0px;
+		transition: 0.8s;
+	}
+
+	#greenwebMenu .button {
+		display: block;
+		position: relative;
+		margin:0px 0px;
+		padding: 8px;
+		padding-left: 25px;
+		height: 23px;
+		width: 197px;
+		left: -150px;
+		border-bottom: 1px solid #bcbcbc;
+		background-repeat: no-repeat;
+		background-position: 151px 0px;
+		transition: 0.8s;
+	}
+
+		#greenwebMenu .butstranky {background-image: url('../img/buttonstranky.png');		}
+		#greenwebMenu .butuzivatele {background-image: url('../img/buttonuzivatele.png');		}
+		#greenwebMenu .butdatabaze {background-image: url('../img/buttondatabaze.png');		}
+		#greenwebMenu .butdomeny {background-image: url('../img/buttondomeny.png');		}
+		#greenwebMenu .butmoduly {background-image: url('../img/buttonmoduly.png');		}
+		#greenwebMenu .butpomoc {background-image: url('../img/buttonpomoc.png');		}
+		#greenwebMenu .butlogout {background-image: url('../img/buttonodhlasit.png');		}
+
+	#greenwebMenu .bottom {
+		
+		border-top: 1px solid #bcbcbc;
+		border-bottom: none;
+		
+	}
+
+#greenwebMenu:hover {
+	width: 250px;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.8);
+
+}
+
+	#greenwebMenu:hover #logo {
+		background-position: 0px 0px;
+	}
+
+
+	#greenwebMenu:hover .button {
+		margin:0px 10px;
+		background-position: 166px 0px;
+		left: 0px;
+	}
+
+
+#greenwebMenu:hover ~ #greenwebContent {
+	left: 151px;
+
+}
+
+#greenwebMenu:hover ~ #greenwebContent h1 {
+	left: 221px;
+
+}
+
+
+
+
+#greenwebContent {
+	padding-top: 61px;
+	position: relative;
+	width: auto;
+	left: 0px;
+	min-height: 1500px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 50px;
+	background: #eeeeee;
+	transition: 0.8s;
+}
+
+
+
+	#greenwebContent h1 {
+		top: 0px;
+		left: 51px;
+		right: 0px;
+		position: fixed;
+		display: block;
+		height: 30px;
+		line-height: 30px;
+		font-size: 25px;
+		padding: 15px; 
+		border-bottom: 1px solid #bcbcbc; 
+		transition: 0.8s;
+		z-index: 70;
+		background: #eeeeee;
+
+	}	
+
+
+
+
+
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+/* ------------------------------------- stranky ------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+
+.greenwebWebbar {
+	color: #ffffff;
+	padding:10px;
+	line-height: 19px;
+	margin-bottom: 1px;
+	background: #336699;
+
+}
